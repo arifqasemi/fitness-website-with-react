@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+   
+}
+.large-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    border-bottom: solid 1px black;
+    height: 10vh;
+}
+.navbar .link{
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+.navbar .large-menu img{
+    width: 15%;
+    height: 10%;
+}
+
+ .small-menu{
+    display: none;
+}
+ .small-menu .hamburger{
+    background-color: black;
+    padding: 1.5px 10px;
+    margin: 2px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 5%;
+}
+
+ .small-menu .icon{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+   
+}
+
+.word{
+    position: relative;
+    top: 150px;
+    left: 420px;
+    font-size: 70px;
+    opacity: 0.2;
+}
+
+.image{
+  width: 100px;
+}
+
+.image img{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    top: -69px;
+    border-bottom-left-radius: 50px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    text-transform: capitalize;
+    
+}
+.title h3 , p{
+    padding: 8px 0;
+}
+
+
+
+.btn{
+    background-color: black;
+    padding: 10px 12px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+   
+}
+
+.search input{
+    width: 70%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid 1px rgb(153, 153, 153);
+  border-radius: 5px;
+ margin-right: 15px;
+ cursor: pointer;
+   
+}
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 90px;
+ 
+    /* background-color: red; */
+}
+
+.slide img{
+    margin: auto;
+}
+
+.container img{
+    width: 50%;
+    height: 50%;
+   
+}
+
+.container{
+  width: 80%;
+   
+}
+
+.slick-slide > div {
+ margin: 0 10px;
+}
+
+.workouttitle{
+    text-transform: capitalize;
+    padding: 5px 0;
+}
+
+.result{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 40px;
+    width: 80%;
+    
+    /* background-color: red; */
+}
+
+.result img{
+    width: 200px;
+    height: 70%;
+   
+  
+}
+
+.container1 .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px black;
+    margin: 0 5px;
+    height: 50%;
+    cursor: pointer;
+    
+}
+
+
+.container1{
+    width: 20%;
+    height: 100%;
+    padding: 10px 0;
+    /* position: relative; */
+    /* top: 70px; */
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+
+}
+.card h2{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.container1 .name{
+    text-transform: capitalize;
+    padding: 6px;
+    font-size: 10px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.page button{
+    padding: 5px 5px;
+    margin: 0 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.page button:hover{
+    background-color: rgb(120, 119, 119);
+}
+
+.page{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page button.active {
+    background-color: red;
+}
+
+.single .singleImage1{
+    position: relative;
+    top: 0px;
+    height: 100%;
+    width: 250px;
+     border: solid 1px black;
+
+}
+
+
+.single{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 1200px;
+    height: 100%;
+    left: 100px;
+    top: 50px;
+   margin-bottom: 70px;
+}
+
+.singletitle{
+    padding: 8px 0;
+}
+
+.exercisename{
+    text-transform: capitalize;
+    color: rgb(54, 54, 54);
+    font-size: 20px;
+   font-weight: 700;
+}
+
+.contain .video{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 100%;
+}
+
+.videofromYoutub{
+    display: flex;
+   flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.videofromYoutub img{
+    height: 160px;
+    width: 280px;
+
+}
+
+.vid{
+    padding: 10px 10px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media(max-width:466px){
+   .large-menu {
+       display: none;
+    }
+
+    .image{
+        display: none;
+    }
+    .word {
+        position: relative;
+        top: 80px;
+        left: 10px;
+        font-size: 50px;
+        opacity: 0.2;
+    }
+    .navbar {
+ 
+        border: none;
+      
+    }
+   
+    
+    .small-menu .logo img{
+        width: 40%;
+        height: 50%;
+    }
+    
+   
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+        
+        text-transform: capitalize;
+    }
+
+    .title h3{
+        padding: 5px 0;
+        font-size: 10px;
+    }
+
+    .title p{
+        font-size: 8px;
+    }
+    .btn {
+        background-color: black;
+        padding: 5px 12px;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .search input {
+        width: 35%;
+        border-radius: 5px;
+       
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+        padding: 70px 0;
+    }
+
+    .result {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        top: 40px;
+        width: 80%;
+        height:240vh;
+        /* background-color: red; */
+    }
+
+    .small-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: flex-start;
+        min-width: 330px;
+        /* position: relative;
+        top: 10px; */
+    }
+
+    .single {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+
+    .single {
+        position: relative;
+        display: flex;
+       
+       left: 20px;
+        margin-bottom: 70px;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-start;
+        text-align: start;
+        text-transform: capitalize;
+        position: relative;
+        left: -38px;
+    }
+
+    .videofromYoutub {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 70vh;
+        position: relative;
+        top: 15px;
+    }
+  
+}
