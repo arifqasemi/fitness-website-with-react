@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/omarsutlani/fitness-website-with-react/static/css/main.ffb309ae.css",
+    "main.js": "/omarsutlani/fitness-website-with-react/static/js/main.28fc1118.js",
+    "static/js/787.ec6b3678.chunk.js": "/omarsutlani/fitness-website-with-react/static/js/787.ec6b3678.chunk.js",
+    "index.html": "/omarsutlani/fitness-website-with-react/index.html",
+    "main.ffb309ae.css.map": "/omarsutlani/fitness-website-with-react/static/css/main.ffb309ae.css.map",
+    "main.28fc1118.js.map": "/omarsutlani/fitness-website-with-react/static/js/main.28fc1118.js.map",
+    "787.ec6b3678.chunk.js.map": "/omarsutlani/fitness-website-with-react/static/js/787.ec6b3678.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffb309ae.css",
+    "static/js/main.28fc1118.js"
+  ]
+}
